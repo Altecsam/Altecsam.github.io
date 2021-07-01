@@ -10,7 +10,7 @@ body {
   background-image: url(../resources/testpaper.jpg),linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 28%, rgba(0,0,0,1) 55%, rgb(8, 0, 27) 69%, rgb(24, 0, 27) 88%, rgb(48, 1, 51) 100%);
   /* background-image: url(../resources/testpaper.jpg), linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0,0,0) 80%, rgb(8, 0, 27) 100%); */
   background-repeat: no-repeat; 
-  color: rgb(206, 199, 199);
+  color: rgb(255, 255, 255);
   font-size: 1.6em;
   overflow:auto;
 }
