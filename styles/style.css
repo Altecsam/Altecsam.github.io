@@ -223,12 +223,26 @@ footer h5 {
 }
 
 @media only screen and (max-width:600px) {
+  .navbar {
+    background-color:unset;
+  }
   .navbar a {
     display: block;
+    margin-bottom: 1em;
     font-size: 1.6em;
+    border: solid 0.15em rgb(0, 0, 0);
+    -moz-box-shadow: 0 0 1em rgb(97, 2, 126, 1);
+    -webkit-box-shadow: 0 0 1em rgb(97, 2, 126, 1);
+    box-shadow: 0 0 1em rgba(97, 2, 126, 1); 
+    border-radius: 25px;
+    background-color: rgb(47, 2, 61);
+  }
+  .navbar a:hover {
+    background-color:rgb(65, 3, 83);
   }
   body {
     font-size: 1em;
+    background-size:contain;
   }
   h1,h2,h3,h4,h5 {
     line-height: 1.6em;
@@ -237,5 +251,8 @@ footer h5 {
     display: absolute;
     bottom: 1em;
     right:1em;
+  }
+  .shadow h1 {
+    font-size: 1.65em;
   }
 }
