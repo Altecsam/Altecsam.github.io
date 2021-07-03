@@ -241,8 +241,8 @@ footer h5 {
     background-color:rgb(65, 3, 83);
   }
   body {
-    font-size: 1em;
-    background-size:contain;
+    font-size: 1.2em;
+    background-size:auto;
   }
   h1,h2,h3,h4,h5 {
     line-height: 1.6em;
@@ -254,5 +254,16 @@ footer h5 {
   }
   .shadow h1 {
     font-size: 1.65em;
+  }
+  .shadow {
+    margin: 0%;
+    padding-right: unset;
+  }
+  .p-border {
+    width: unset;
+    left: 0;
+  }
+  .rule {
+    width: unset;
   }
 }
