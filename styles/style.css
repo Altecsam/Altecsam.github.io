@@ -19,7 +19,7 @@ body {
   background-color:rgba(0, 0, 0, 0.85);
   position: relative;
   margin: 8%;
-  padding: 1% 1em 10% 0 ;
+  padding: 1% 0 10% 0 ;
   border-radius: 25px;
   z-index: 0;
   /* overflow: auto; */
@@ -89,7 +89,7 @@ h5 {
   text-align: center;
   padding: 1em 0.5em 0.5em 0.5em;
   position: relative;
-  width:99.4%;
+  width:auto;
   z-index: 2;
   font-size: 1.5em;
 }
@@ -195,6 +195,7 @@ span.warning {
   width: 5em;
   height: 5em;
   border-radius: 50%;
+  overflow: hidden;
   background-color: rgba(47, 2, 61, 0.7);
   /* border: 0.25em solid rgb(5, 104, 117); */
   -moz-box-shadow: 0 0 0.5em rgb(79, 12, 155);
@@ -221,6 +222,11 @@ footer h5 {
   font-size: 0.8em;
   
 }
+.circle img,
+.glorious-leader-title img {
+  width: 100%;
+  height: auto;
+}
 
 @media only screen and (max-width:600px) {
   .navbar {
@@ -244,7 +250,7 @@ footer h5 {
     font-size: 1.2em;
     background-image:unset;
     /* background-size:auto; */
-    background-color: #4158D0;
+    background-color: black;
     background-image: linear-gradient(0deg, #a5f7d0 0%, #550399 46%, #3f0163 80%, #250022 100%);
   }
   
