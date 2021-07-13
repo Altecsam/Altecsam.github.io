@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   background-color: rgb(0,0,0);
   background-image: url(../resources/background.jpg);
@@ -68,9 +69,8 @@ h1, h2, h3 {
   text-align: center;
 }
 h1 {
-  padding-top: 2em;
+  padding: 2em 1em 1em 1em;
   font-size: 2em;
-  padding-bottom: 1em;
   letter-spacing: 0.2em;
 }
 h2 {
