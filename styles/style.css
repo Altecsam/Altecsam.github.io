@@ -292,7 +292,7 @@ footer h5 {
     background-image:unset;
     /* background-size:auto; */
     background-color: black;
-    background-image: linear-gradient(0deg, #699c84 0%, #572d79 40%, #28023d 75%, #250022 100%);
+    background-image: linear-gradient(0deg, #000000 0%, #57059b 40%, #28023d 75%, #250022 100%);
   }
   
   h1,h2,h3,h4,h5 {
@@ -302,7 +302,7 @@ footer h5 {
     display: absolute;
     bottom: 1em;
     right:1em;
-    color:black;
+    color:white;
   }
   .shadow h1 {
     font-size: 1.65em;
