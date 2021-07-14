@@ -5,7 +5,7 @@ html {
 body {
   background-color: rgb(0,0,0);
   background-image: url(../resources/background.jpg);
-  background-image: url(../resources/background.jpg),linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 28%, rgba(0,0,0,1) 55%, rgb(8, 0, 27) 69%, rgb(24, 0, 27) 88%, rgb(48, 1, 51) 100%);
+  background-image: url(../resources/background.jpg),linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 28%, rgba(0,0,0,1) 55%, rgb(28, 0, 39) 69%, rgb(35, 0, 37) 100%);
   /* background-image: url(../resources/testpaper.jpg), linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0,0,0) 80%, rgb(8, 0, 27) 100%); */
   background-repeat: no-repeat; 
   background-size:contain;
@@ -263,10 +263,12 @@ footer h5 {
     padding:unset;
     border: unset;
     display: flex;
-    /* justify-content: unset; */
-    /*justify-content: space-around;*/
+    justify-content: center;
+    justify-content: space-around;
+    /* position:static; */
+    width:100%;
     flex-wrap: wrap;
-    margin-left: 10%;
+    /* margin-left: 10%; */
   }
   .navbar a {
     border: solid 0.1em rgb(0, 0, 0);
