@@ -312,6 +312,7 @@ footer h5 {
   .shadow {
     margin: 4em 0%;
     padding-right: unset;
+    padding-left: unset;
   }
   .p-border {
     width: unset;
