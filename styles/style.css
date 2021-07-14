@@ -328,6 +328,7 @@ footer h5 {
   #home-list{
     width:80%;
     margin-left: 0.1em;
-    padding:0 auto;
+    padding: 0 auto;
+    margin-bottom: 2em;
   }
 }
