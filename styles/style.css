@@ -263,9 +263,9 @@ footer h5 {
     padding:unset;
     border: unset;
     display: flex;
-    /* justify-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap; */
+    /* justify-content: unset; */
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;
     margin-left: 10%;
   }
   .navbar a {
@@ -317,5 +317,8 @@ footer h5 {
   }
   .rule {
     width: unset;
+  }
+  .border-title {
+    margin: 1em auto;
   }
 }
