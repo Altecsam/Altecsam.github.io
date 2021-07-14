@@ -320,11 +320,11 @@ footer h5 {
   .rule {
     width: unset;
   }
-  /* .border-title {
+  .border-title #home{
     margin: 1em auto;
-    width: 70%;
-    /padding:unset;/ 
-  } */
+    /* width: 70%; */
+    /*padding:unset;*/
+  }
   #home-list{
     width:80%;
     margin-left: 0.1em;
