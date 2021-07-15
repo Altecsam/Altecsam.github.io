@@ -314,10 +314,10 @@ footer h5 {
     padding-right: unset;
     padding-left: unset;
   }
-  .p-border {
+  /* .p-border {
     width: unset;
     left: 0;
-  }
+  } */
   .rule {
     width: unset;
   }
@@ -325,11 +325,5 @@ footer h5 {
     margin: 1em auto;
     width: 70%;
     /*padding:unset;*/
-  }
-  #home-list{
-    width:80%;
-    margin-left: 0.1em;
-    padding: 0 auto;
-    margin-bottom: 2em;
   }
 }
