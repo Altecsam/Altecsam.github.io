@@ -320,14 +320,13 @@ footer h5 {
   } */
   .rule {
     width: unset;
+    left: 0;
+    box-sizing: border-box;
   }
   .border-title #home{
     margin: 1em auto;
     width: 70%;
     /*padding:unset;*/
-  }
-  .rule {
-    left:0;
   }
   h1 {
     letter-spacing: 0.1em;
