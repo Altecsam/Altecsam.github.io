@@ -326,4 +326,10 @@ footer h5 {
     width: 70%;
     /*padding:unset;*/
   }
+  .rule {
+    left:0;
+  }
+  h1 {
+    letter-spacing: 0.1em;
+  }
 }
