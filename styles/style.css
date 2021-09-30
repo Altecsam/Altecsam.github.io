@@ -126,7 +126,7 @@ h5 {
 }
 
 .rule-title {
-  background-color: rgb(168, 106, 5);
+  background-color: rgb(209, 130, 4);
   border-radius:10px;
   text-align: center;
   padding:2em;
@@ -297,9 +297,9 @@ footer h5 {
   }
   .navbar a {
     border: solid 0.1em rgb(0, 0, 0);
-    -moz-box-shadow: 0 0 1em rgb(255, 255, 0);
-    -webkit-box-shadow: 0 0 1em rgb(255, 255, 0);
-    box-shadow: 0 0 1em rgb(255, 255, 0);
+    -moz-box-shadow: 0 0 1em orange;
+    -webkit-box-shadow: 0 0 1em orange;
+    box-shadow: 0 0 1em orange;
     position: relative;
     border-radius: 25px;
     display: inline-block;
@@ -319,7 +319,7 @@ footer h5 {
     background-image:unset;
     /* background-size:auto; */
     background-color: black;
-    background-image: linear-gradient(0deg,#070500 0%, #803d06 75%, #a76e04 40%, #000000 100%);
+    background-image: linear-gradient(0deg,#070500 0%, #803d06 75%, orange 40%, #271501 100%);
     /* background-image: url(../resources/halloween.jpg); */
   }
   
@@ -361,6 +361,11 @@ footer h5 {
     left: 0;
     box-sizing: border-box;
   }
+
+  .rule-title {
+    letter-spacing: 0.1em;
+  }
+
   .border-title #home{
     margin: 1em auto;
     width: 70%;
