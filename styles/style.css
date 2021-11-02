@@ -4,10 +4,10 @@ html {
 
 body {
   background-color: rgb(0,0,0);
-  background-image: url(../resources/halloween.jpg);
-  background-image: url(../resources/halloween.jpg),linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 28%, rgba(0,0,0,1) 55%, rgb(78, 39, 2) 69%, rgb(49, 20, 1) 100%);
+  background-image: url(../resources/background.jpg);
+  background-image: url(../resources/background.jpg),linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 28%, rgba(0,0,0,1) 55%, rgb(28, 0, 39) 69%, rgb(35, 0, 37) 100%);
   /* background-image: url(../resources/testpaper.jpg), linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0,0,0) 80%, rgb(8, 0, 27) 100%); */
-  background-repeat: repeat; 
+  background-repeat: no-repeat; 
   background-size:contain;
   background-size: 100%;
   color: rgb(255, 255, 255);
@@ -27,14 +27,14 @@ body {
   /* overflow: auto; */
   overflow-wrap: break-word;
   word-wrap: break-all;
-  -moz-box-shadow: 0 0 2em rgb(179, 255, 0);
-  -webkit-box-shadow: 0 0 2em rgb(179, 255, 0);
-  box-shadow: 0 0 2em rgb(179, 255, 0);
+  -moz-box-shadow: 0 0 1em rgb(97, 2, 126, 1);
+  -webkit-box-shadow: 0 0 1em rgb(97, 2, 126, 1);
+  box-shadow: 0 0 1em rgba(97, 2, 126, 1); 
 }
 
 
 .navbar { 
-  background-color: rgb(158, 130, 4);
+  background-color: rgb(47, 2, 61);
   border-radius: 10px;
   margin-left: 10%;
   /*margin-right: 20%; */
@@ -59,7 +59,7 @@ body {
 }
 
 .navbar a:hover {
-  color: rgb(179, 255, 0);
+  color: rgb(80, 122, 212);
   /* background-color: rgba(0, 0, 0, 0.281); */
   border-radius: 5px;
 }
@@ -78,34 +78,11 @@ h2 {
   padding-bottom: 1em;
 }
 h3 {
-  font-size: 3em;
-  letter-spacing: 0.3em;
+  font-size: 1.5em;
   padding: 2em;
 }
 h4 {
-  font-size: 2em;
-  letter-spacing: 0.3em;
-}
-
-.web-title {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.85);
-  margin: 0 auto;
-  margin-bottom: 2em; 
-  width: 50%;
-  word-wrap: break-all;
-  border-radius: 25px;
-  color: rgb(248, 145, 11);
-  font-size: 3.5em;
-  overflow-wrap: break-word;
-  padding: 1em;
-  /* padding-bottom: 1.5em; */
-  display: block;
-  position: relative;
-  line-height: 1.5em;
-  -moz-box-shadow: 0 0 2em rgb(143, 49, 6);
-  -webkit-box-shadow: 0 0 2em rgb(143, 49, 6);
-  box-shadow: 0 0 2em rgb(143, 49, 6);
+  font-size: 1.5em;
 }
 
 h5 {
@@ -126,7 +103,7 @@ h5 {
 }
 
 .rule-title {
-  background-color: rgb(209, 130, 4);
+  background-color: rgba(47, 2, 61, 0.5);
   border-radius:10px;
   text-align: center;
   padding:2em;
@@ -156,12 +133,10 @@ h5 {
   word-wrap: break-all;
   margin: 3em; 
   text-align: center;
-  font-size: 1.7em;
-  letter-spacing: 0.2em;
 }
 
-.font-page {
-  font-size: 4em;
+#font-page {
+  font-size: 2em;
   position: relative;
   z-index: 2;
   width: 50%;
@@ -171,10 +146,10 @@ h5 {
 
 .border-title {
   display: relative;
-  border-left: rgb(179, 255, 0) 1em solid;
-  border-top: rgb(179, 255, 0) solid;
-  border-bottom: rgb(179, 255, 0) solid;
-  border-right: rgb(179, 255, 0) solid;
+  border-left: rgb(47, 2, 61) 1em solid;
+  border-top: rgb(47, 2, 61) 0.4em solid;
+  border-bottom: rgb(47, 2, 61) 0.4em solid;
+  border-right: rgb(47, 2, 61) 1em solid;
   border-radius: 25px;
   margin: 0 auto;
   width: 80%;
@@ -193,10 +168,10 @@ h5 {
 }
 
 .p-border {
-  border-left: rgb(179, 255, 0) 1em double;
-  border-top: rgb(179, 255, 0) 0.4em double;
-  border-bottom: rgb(179, 255, 0) 0.4em double;
-  border-right: rgb(179, 255, 0) 1em double;
+  border-left: rgba(47, 2, 61, 0.7) 1em solid;
+  border-top: rgba(47, 2, 61, 0.7) 0.4em solid;
+  border-bottom: rgba(47, 2, 61, 0.7) 0.4em solid;
+  border-right: rgba(47, 2, 61, 0.7) 1em solid;
   border-radius: 25px;
   position: relative;
   width: 50%;
@@ -209,7 +184,7 @@ h5 {
 }
 
 span.channel {
-  color: rgb(235, 138, 28);
+  color: rgb(255, 0, 157);
 }
 
 span.warning {
@@ -297,9 +272,9 @@ footer h5 {
   }
   .navbar a {
     border: solid 0.1em rgb(0, 0, 0);
-    -moz-box-shadow: 0 0 1em orange;
-    -webkit-box-shadow: 0 0 1em orange;
-    box-shadow: 0 0 1em orange;
+    -moz-box-shadow: 0 0 1em rgb(97, 2, 126, 1);
+    -webkit-box-shadow: 0 0 1em rgb(97, 2, 126, 1);
+    box-shadow: 0 0 1em rgba(97, 2, 126, 1); 
     position: relative;
     border-radius: 25px;
     display: inline-block;
@@ -319,28 +294,12 @@ footer h5 {
     background-image:unset;
     /* background-size:auto; */
     background-color: black;
-    background-image: linear-gradient(0deg,#070500 0%, #803d06 75%, orange 40%, #271501 100%);
-    /* background-image: url(../resources/halloween.jpg); */
+    background-image: linear-gradient(0deg, #000000 0%, #57059b 40%, #28023d 75%, #250022 100%);
   }
   
   h1,h2,h3,h4,h5 {
     line-height: 1.6em;
-    font-size: 2.5em;
   }
-
-  #welcome {
-    font-size: 3.2em;
-  }
-
-  .font-page {
-    width: 60%;
-  }
-
-  #admin {
-    font-size: 2.8em;
-    /* letter-spacing: 0em; */
-  }
-
   footer {
     display: absolute;
     bottom: 1em;
@@ -348,24 +307,22 @@ footer h5 {
     color:white;
   }
   .shadow h1 {
-    /* font-size: 1.65em; */
-    font-size: 3em;
+    font-size: 1.65em;
   }
   .shadow {
     margin: 4em 0%;
     padding-right: unset;
     padding-left: unset;
   }
+  /* .p-border {
+    width: unset;
+    left: 0;
+  } */
   .rule {
     width: unset;
     left: 0;
     box-sizing: border-box;
   }
-
-  .rule-title {
-    letter-spacing: 0.1em;
-  }
-
   .border-title #home{
     margin: 1em auto;
     width: 70%;
